@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <Title>The Exchange</Title>
+        <Title>The Ring</Title>
         <meta charset="UTF-8"/>
         <meta name="viewport"content="width=device-width"/>
         <link rel="stylesheet" href="./assets/style.css">
     </head>
     <body>
         <header>
-            <h1>The Exchange</h1>
+            <h1>The Ring</h1>
         </header>
         <main>
             <div>
                 <p>
-                    You watch as Xedalli speaks to Xeleth. Arguing over the future of their planet. You hear a voice come from behind you "Stay calm". You feel a hand touch your shoulder. You're
-                    unsure what is happening.  
+                    You're listening to Xadalli explain to the party about her ring. Suddenly, you hear a voice inside your head. "Just as I hoped..."
                 </p>
             </div>
 
@@ -26,22 +25,26 @@
                 </section>
             </div>
 
-            <div id="ans1" style="display:none">
+            <div class="buttons-container" id="ans1" style="display:none">
                 <p>
-                    You stay still. You try to not react to the voice. "I don't have much time. I'm going to have to leave you soon my love." You recognize the voice. It is the voice
-                    Xadalli. "My doppleganger can only speak for so long. Listen closely. When I'm done speaking. I am going to drop something. Pick it up. But don't let your friends see you 
-                    pick it up."
+                    You stay still. You're trying to concentrate on what Xadalli is saying but her voice begins to drown out and the only voice you 
+                    can hear is the voice. "She's finally giving us the last piece we need. Now is our chance. I need you to take that ring. 
+                    Get that ring." 
                 </p>
             </div>
 
-            <div id="ans2" style="display:none">
+            <div class="buttons-container" id="ans2" style="display:none">
                 <p>
                     You immediately freak out! You begin to jump around hysterically. Everyone is now looking at you as if you are crazy.
-                    Please let your DM know you have chosen this route.
+                    "You god damn idiot! Stop making a god damn scene!" You feel anger. But you are not angry. Its a foreign emotion.
+                    "I need that fucking ring. Do whatever it takes to get that ring" 
+                    <br/>
+                    <br/>
+                    Any checks towards getting the ring will be at disadvantage.
                 </p>
             </div>
 
-            <div id="freakout1" >
+            <div id="freakout1" style="display:none">
                 Xadalli looks at you disappointingly. Maybe I can not trust you as I thought I could.
 
             </div>
@@ -50,24 +53,59 @@
                 <p>
                     What do you do?
                 </p>
-                <section class="buttons">
-                    <button type="button" id="stealth">Pick it up stealthly</button>
-                    <button type="button" id="other">Pick it up another way</button>
+                <section class="buttons" id="ringques">
+                    <button type="button" id="stealth">Take the ring</button>
+                    <button type="button" id="other">Don't take the ring</button>
                 </section>
             </div>
 
             <div class="buttons-container" id="ans3" style="display:none">
                 <p>
-                    You try to pick up the item that was dropped by Xadalli. You think you can pick it up when everyone is looking away.
-                    You bide you time waiting for your chance to pick up the item. You see your chance. Everyone seems to be looking the other way.
-                    You bend down to see if you can pick up the item.
+                    You decide to try and get the ring. You feel a sense of happiness. You feel like everything is going as you hoped. You feel
+                    as if something you had been yearning for is within your reach. But this is a foreign feeling. It's not really your 
+                    own feeling. 
+                    <br/>
+                    <br/>
+                    Anything involved with this ring, you have advantage (unless you freaked out). 
+                    Tell your DM "obeyed" as discreetly as possible. If you freaked out then say "Freaked out".
                 </p>
-                <section class="buttons">
-                    <button type="button" id="nat1">Nat 1</button>
-                    <button type="button" id="bad">2-12</button>
-                    <button type="button" id="decent">13-19</button>
-                    <button type="button" id="nat20">Nat 20</button>
+               
+            </div>
+
+            <div class="buttons-container" id="ans4" style="display:none">
+                <p>
+                    "Don't you dare think about disobeying me. The consequences of doing so will be dire for you."
+                   
+                </p>
+                <section class="buttons" id="business-decision">
+                    <button type="button" id="nat1">Reconsider</button>
+                    <button type="button" id="bad">Stay True</button>
                 </section>
+
+            </div>
+            
+            <div class="buttons-container" id="reconsidered" style="display:none" >
+                <p>
+                    You've reconsidered. You feel a sense of happiness. You feel like everything is going as you hoped. You feel
+                    as if something you had been yearning for is within your reach. But this is a foreign feeling. It's not really your 
+                    own feeling.
+                    <br/>
+                    <br/>
+                    Discreetly tell your DM "reconsidered". You have no help with getting the ring. 
+                </p>
+
+            </div>
+
+            <div class="buttons-container" id="stayedtrue" style="display:none" >
+                <p>
+                    You begin to feel something within you. At first it was just a pit in your stomach. But it quickly becomes a burning sensation. 
+                    Your body is in insane pain. As time goes by, you become weaker and weaker. You fall to the ground in pain. By the end of it,
+                    you can barely move. And worst of all, you no longer feel the power you once had.
+                    <br/>
+                    <br/>
+                    Discreetly tell your DM "stayed true". Your HP drops to 1. Your pact is also broken. You no longer have any of your warlock 
+                    powers.
+                </p>
 
             </div>
             
